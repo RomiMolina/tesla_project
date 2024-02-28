@@ -119,7 +119,7 @@ function App() {
         leftBtnLink=''
         rightBtnText='Learn More'
         rightBtnLink=''
-        twoButtons='false'
+        twoButtons=''
         />
     </div>
     </div>

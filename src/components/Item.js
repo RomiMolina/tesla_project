@@ -24,11 +24,11 @@ const Item = ({title, desc, descLink, backgroundImg, first, leftBtnText,leftBtnL
             <Button imp='secondary' text={rightBtnText} link={rightBtnLink} />
           )}
         </div>
-        {first && (
+        {/* {first && (
           <div className='items__expand'>
             <ExpandMoreIcon />
           </div>
-        )}
+        )} */}
       </div>
     </div>
   )
