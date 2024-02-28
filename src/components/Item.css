@@ -50,15 +50,16 @@
 } */
 
 @media screen and (max-width: 768px) {
-  
+
     .items__container {
       width: 80vw; 
     }
     .item__text {
+        margin-top: 18%;
       font-size: 40px; 
     }
     .item__lowerThird {
-        margin-bottom: 15%;
+        margin-bottom: 20%;
         display: flex;
         justify-content: center; 
         text-align: center; 
