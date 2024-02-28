@@ -2,6 +2,10 @@ import React from 'react'
 import "./Header.css"
 import teslaLogo from "../assets/tesla-9 small.svg"
 
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import LanguageIcon from '@mui/icons-material/Language';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+
 const Header = () => {
   return (
     <div className='header' >
@@ -18,8 +22,9 @@ const Header = () => {
        </div>
 
        <div className='header__right'>
-       <p>Shop</p>
-        <p>Tesla Account</p>
+       <HelpOutlineIcon/>
+       <LanguageIcon/>
+        <PermIdentityIcon/>
        </div>
        
     </div>

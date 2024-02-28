@@ -29,11 +29,12 @@
 
 .header__right{
     display: flex;
-    justify-content: flex-end
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+    gap: 10px
 }
-.header__right>p{
-    margin: 10px
-}
+
 
 @media screen and (max-width: 768px) {
     .header__center,

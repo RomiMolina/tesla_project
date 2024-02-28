@@ -1,6 +1,5 @@
 .item{
     height: 100vh;
-    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,18 +16,19 @@
 }
 
 .item__text{
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
-    font-size: 34px;
+    font-size: 40px;
     color: #393c41;
     align-items: center;
     flex: 1;
+    letter-spacing: 0.5px;
 }
 
 .item__textDesc{
     font-weight:200 ;
-    font-size: 14px;
+    font-size: 18px;
     
 }
 
