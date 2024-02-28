@@ -34,3 +34,10 @@
 .header__right>p{
     margin: 10px
 }
+
+@media screen and (max-width: 768px) {
+    .header__center,
+    .header__right {
+    display: none;
+  }
+}

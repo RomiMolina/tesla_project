@@ -1,0 +1,14 @@
+.app__itemsContainer{
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas */
+    .app__itemsContainer {
+      /* Ajustes para dispositivos móviles */
+      /* Por ejemplo, podrías cambiar el diseño de los elementos */
+      /* o modificar tamaños de fuente */
+    }
+  }

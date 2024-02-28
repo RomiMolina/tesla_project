@@ -3,9 +3,10 @@
     width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover ;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .items__container{
@@ -47,3 +48,28 @@
     margin-top: 3%;
     justify-content: center;
 } */
+
+@media screen and (max-width: 768px) {
+  
+    .items__container {
+      width: 80vw; 
+    }
+    .item__text {
+      font-size: 40px; 
+    }
+    .item__lowerThird {
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center; 
+        text-align: center; 
+        flex-wrap: wrap;
+    }
+    
+    .items__buttons {
+        display: flex;
+        flex-direction: row; 
+        align-items: center; 
+        width: 100%;
+    }
+  }
+  
